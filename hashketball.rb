@@ -265,6 +265,8 @@ def winning_team
     game_hash.keys[0] => 0, 
     game_hash.keys[1] => 0
   }
+  
+  
   game_hash[game_hash.keys].each { |keyz, values|
   i = 0
     while i < game_hash[game_hash.keys[keyz]][:players].length do 
