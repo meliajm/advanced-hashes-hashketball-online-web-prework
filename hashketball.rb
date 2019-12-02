@@ -152,6 +152,7 @@ def num_points_scored(name)
     end
   }
   result
+  binding.pry
 end
 
 def team_names
