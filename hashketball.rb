@@ -2,12 +2,12 @@ def game_hash
   hash = {
     :home => {
       :team_name => "Brooklyn Nets",
-      :colors => {},
+      :colors => ["Black", "White"],
       :players => {}
     },
     :away => {
       :team_name => "Charlotte Hornets",
-      :colors => {},
+      :colors => [],
       :players => {}
     }
   }
