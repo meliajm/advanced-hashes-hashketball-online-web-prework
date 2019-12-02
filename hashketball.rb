@@ -183,3 +183,12 @@ def team_names
   game_hash.each { |key, values| names << game_hash[key][:team_name] }
   names
 end
+
+def player_numbers(team_name)
+  result = []
+  game_hash.each { |keys, values|
+    if game_hash[keys][:team_name] == team_name
+      result << game_hash[keys][:players][:number]
+    end
+  }
+end
