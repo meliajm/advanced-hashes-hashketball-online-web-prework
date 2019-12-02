@@ -248,12 +248,12 @@ def most_points_scored
   i = 0
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:points] > most_points
-        
-        rebounds = game_hash[keys][:players][i][:rebounds]
+        most_points = game_hash[keys][:players][i][:points]
+        name = game_hash[keys][:players][i][:player_name]
       end
       i += 1
     end
   }
-  
+  name
 end
 
