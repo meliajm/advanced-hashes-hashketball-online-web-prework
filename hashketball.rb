@@ -191,7 +191,7 @@ def player_numbers(team_name)
     
     if game_hash[v][:team_name] == team_name
       # binding.pry
-      game_hash[v][:players].each_with_index do |v, ind| 
+      game_hash[v][:players].each_with_index do |val, ind| 
         result << game_hash[v][:players][ind][:number]
       end
     end
