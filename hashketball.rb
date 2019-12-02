@@ -110,7 +110,7 @@ def game_hash
           :slam_dunks => 0
         },
         {
-          :player_name => "Jason Terry",
+          :player_name => "Kemba Walker",
           :number => 33,
           :shoe_size => 15,
           :points => 6,
