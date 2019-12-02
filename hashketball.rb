@@ -138,7 +138,6 @@ end
 #         "Ben Gordon" => {},
 #         "Kemba Walker" => {}
 
-
-
+def num_points_scored
 
 
