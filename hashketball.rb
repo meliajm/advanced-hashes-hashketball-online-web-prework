@@ -259,5 +259,16 @@ def most_points_scored
 end
 
 def winning_team
+  # total up points mini-method?
+  total_points = 0 
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      total_points += game_hash[keys][:players][i][:points] 
+      i += 1
+    end
+  }
+  # compare totals
   
+  #return string of name 
 end
