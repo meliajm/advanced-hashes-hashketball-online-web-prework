@@ -160,7 +160,7 @@ def shoe_size(name)
   i = 0
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:player_name] == name
-        result = game_hash[keys][:players][i][:points]
+        result = game_hash[keys][:players][i][:shoe_size]
       end
       i += 1
     end
