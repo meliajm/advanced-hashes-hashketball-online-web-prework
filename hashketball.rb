@@ -191,7 +191,7 @@ def player_numbers(team_name)
     
     if game_hash[v][:team_name] == team_name
       game_hash[v][:players].each_with_index do |v, i| 
-        result << game_hash[keys][:players][i][:number]
+        result << game_hash[v][:players][i][:number]
       end
     end
   }
