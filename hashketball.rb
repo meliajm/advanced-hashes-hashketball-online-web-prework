@@ -152,7 +152,20 @@ def num_points_scored(name)
     end
   }
   result
-  # binding.pry
+end
+
+def shoe_size(name)
+  result = nil
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:player_name] == name
+        result = game_hash[keys][:players][i][:points]
+      end
+      i += 1
+    end
+  }
+  result
 end
 
 def team_names
