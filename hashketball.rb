@@ -316,11 +316,12 @@ def player_with_longest_name
   #update if longer
   # return name 
   longest_name = 0 
+  name
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:points][:player_name].length > longest_name
-          
+        longest_name = game_hash[keys][:players][i][:points][:player_name].length
       end
       i += 1
     end
