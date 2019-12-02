@@ -283,7 +283,7 @@ def winning_team
   total_points_home = 0 
   
   i = 0
-    while i < game_hash[keys][:players].length do 
+    while i < game_hash[:home][:players].length do 
       total_points_home += game_hash[:home][:players][i][:points] 
       i += 1
     end
