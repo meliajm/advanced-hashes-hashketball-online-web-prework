@@ -144,3 +144,6 @@ def num_points_scored(name)
   points = nil
 end
 
+def hashketball
+  
+end
