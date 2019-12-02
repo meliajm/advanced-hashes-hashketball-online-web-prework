@@ -203,7 +203,7 @@ def player_stats(player_name)
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
-      if game_hash[keys][:players][i][:player_name] == name
+      if game_hash[keys][:players][i][:player_name] == player_name
         result = game_hash[keys][:players][i][:player_name]
         result.shift
       end
