@@ -146,5 +146,5 @@ end
 
 def team_names
   names = []
-  game_hash
+  game_hash.each { |key| }
 end
