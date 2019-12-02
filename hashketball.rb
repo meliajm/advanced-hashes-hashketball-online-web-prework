@@ -282,6 +282,7 @@ def winning_team
   home_or_away = game_hash.keys
   total_points_home = 0 
   total_points_away = 0
+  winner = nil
   
   i = 0
     while i < game_hash[:home][:players].length do 
@@ -300,7 +301,7 @@ def winning_team
   
   # compare totals
   if total_points_home > total_points_away
-    
+    winner = 
   end
   
   #return string of name 
