@@ -190,7 +190,7 @@ def player_numbers(team_name)
   home_or_away.each_with_index { |v, i|
     
     if game_hash[v][:team_name] == team_name
-      game_hash[keys][:players].each_with_index do |v, i| 
+      game_hash[v][:players].each_with_index do |v, i| 
         result << game_hash[keys][:players][i][:number]
       end
     end
