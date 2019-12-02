@@ -17,8 +17,8 @@ def game_hash
         {:assists => nil},
         {:steals => nil},
         {:blocks => nil},
-        :slam_dunks => nil,
-      }, {}]
+        {:slam_dunks => nil},
+      ]
     }
   }
 end
