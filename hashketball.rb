@@ -204,7 +204,7 @@ def player_stats(player_name)
   i = 0
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:player_name] == player_name
-        result = game_hash[keys][:players][i][:player_name]
+        result = game_hash[keys][:players][i]
         result.shift
       end
       i += 1
