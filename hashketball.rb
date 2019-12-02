@@ -188,13 +188,13 @@ def player_numbers(team_name)
   result = []
   home_or_away = game_hash.keys
   home_or_away.each_with_index { |v, i|
-    
+    binding.pry
     if game_hash[v][:team_name] == team_name
       game_hash[v][:players].each_with_index do |v, ind| 
         result << game_hash[v][:players][ind][:number]
       end
     end
-    binding.pry
+    
   }
   result
   
