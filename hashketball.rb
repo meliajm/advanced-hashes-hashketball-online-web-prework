@@ -213,3 +213,29 @@ def player_stats(player_name)
   result
   # binding.pry
 end
+
+
+def big_shoe_rebounds
+  #find largest shoe 
+  largest_shoe_size = 0 
+  
+  # loop through all :shoe
+  # make largest_shoe_size = shoe size if larger than current 
+  
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:shoe] > largest_shoe_size
+        largest_shoe_size = game_hash[keys][:players][i][:shoe]
+      end
+      i += 1
+    end
+  }
+  largest_shoe_size
+  binding.pry
+  
+  
+  # find rebound of that player
+
+
+
