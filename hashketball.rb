@@ -146,7 +146,7 @@ def num_points_scored(name)
     values.each { |k, v|
     binding.pry
       if game_hash[keys][:players][v][:player_name] == name
-        game_hash[values][:players][v][:points]
+        game_hash[keys][:players][v][:points]
       end
     }  
   }
