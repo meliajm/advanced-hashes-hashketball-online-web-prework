@@ -139,10 +139,10 @@ end
 #         "Kemba Walker" => {}
 
 
-def num_points_scored(name)
-  game_hash[]
-  points = nil
-end
+# def num_points_scored(name)
+#   game_hash[]
+#   points = nil
+# end
 
 def team_names
   names = []
