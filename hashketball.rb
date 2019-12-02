@@ -218,7 +218,7 @@ end
 def big_shoe_rebounds
   #find largest shoe 
   largest_shoe_size = 0 
-  
+  rebounds = nil
   # loop through all :shoe
   # make largest_shoe_size = shoe size if larger than current 
   
@@ -227,11 +227,15 @@ def big_shoe_rebounds
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:shoe] > largest_shoe_size
         largest_shoe_size = game_hash[keys][:players][i][:shoe]
+        rebounds = game_hash[keys][:players][i][:rebounds]
       end
       i += 1
     end
   }
   largest_shoe_size
+  
+  
+  
   binding.pry
 end
   
