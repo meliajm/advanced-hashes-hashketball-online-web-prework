@@ -289,7 +289,7 @@ def winning_team
       i += 1
     end
   }
-  total_points
+  total_points_home
   binding.pry
   # compare totals
   
