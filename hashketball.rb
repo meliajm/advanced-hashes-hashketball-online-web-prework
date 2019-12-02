@@ -151,6 +151,7 @@ def num_points_scored(name)
       i += 1
     end
   }
+  result
 end
 
 def team_names
