@@ -211,4 +211,5 @@ def player_stats(player_name)
     end
   }
   result
+  binding.pry
 end
