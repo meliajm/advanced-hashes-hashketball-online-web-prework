@@ -3,16 +3,22 @@ def game_hash
     :home => {
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
-      :players => {
-        
-        }
+      :players => [{}, {}]
       },
     :away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
-      :players => {
-        
-      }
+      :players => [
+        {:player_name => ""},
+        {:number => ""},
+        {:shoe_size => nil},
+        {:points => nil},
+          {:rebounds => nil},
+          :assists => nil,
+          :steals => nil,
+          :blocks => nil,
+          :slam_dunks => nil,
+      }, {}]
     }
   }
 end
