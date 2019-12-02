@@ -144,6 +144,7 @@ def num_points_scored(name)
   points = nil
 end
 
-def hashketball
-  
+def team_names
+  names = []
+  game_hash
 end
