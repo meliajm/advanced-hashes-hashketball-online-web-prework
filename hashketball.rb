@@ -236,7 +236,7 @@ def big_shoe_rebounds
   
   
   
-  binding.pry
+  # binding.pry
 end
   
   # find rebound of that player
