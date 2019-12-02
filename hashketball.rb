@@ -281,7 +281,7 @@ def winning_team
   # total up points mini-method?
   home_or_away = game_hash.keys
   total_points_home = 0 
-  
+  total_points_away = 0 
   i = 0
     while i < game_hash[:home][:players].length do 
       total_points_home += game_hash[:home][:players][i][:points] 
