@@ -260,6 +260,7 @@ end
 
 def winning_team
   # total up points mini-method?
+  home_or_away = game_hash.keys
   total_points = 0 
   game_hash.each { |keys, values|
   i = 0
