@@ -141,6 +141,7 @@ end
 
 
 def num_points_scored(name)
+  result = nil
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
