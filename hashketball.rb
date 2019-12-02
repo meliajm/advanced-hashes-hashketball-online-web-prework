@@ -261,7 +261,10 @@ end
 def winning_team
   # total up points mini-method?
   home_or_away = game_hash.keys
-  new_hash = {total_points = 0 }
+  new_hash_total_points = {
+    game_hash.keys[0] => nil, 
+    game_hash.keys[1] => nil
+  }
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
