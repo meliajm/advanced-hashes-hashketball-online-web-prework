@@ -187,7 +187,7 @@ end
 def player_numbers(team_name)
   result = []
   game_hash.each { |keys, values|
-  binding.pry
+  # binding.pry
     if game_hash[keys][:team_name] == team_name
       game_hash[keys][:players].each_with_index do |v, i| 
         result << game_hash[keys][:players][i][:number]
