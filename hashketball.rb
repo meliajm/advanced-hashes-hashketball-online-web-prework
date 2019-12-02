@@ -10,8 +10,7 @@ def game_hash
           "Ben Gordon" => {},
           "Kemba Walker" => {}
         }
-      }
-    },
+      },
     :away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
