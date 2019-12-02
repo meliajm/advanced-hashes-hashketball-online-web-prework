@@ -289,8 +289,7 @@ def winning_team
       i += 1
     end
   total_points_home
-  
-  total_points_home = 0 
+
   
   i = 0
     while i < game_hash[:away][:players].length do 
@@ -298,8 +297,12 @@ def winning_team
       i += 1
     end
   total_points_away
-  binding.pry
+  
   # compare totals
+  if total_points_home > total_points_away
+    
+  end
   
   #return string of name 
+  binding.pry
 end
