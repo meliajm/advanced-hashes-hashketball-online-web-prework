@@ -305,7 +305,7 @@ def winning_team
   else
     winner = game_hash[:away][:team_name]
   end
-  
+  winner
   #return string of name 
   binding.pry
 end
