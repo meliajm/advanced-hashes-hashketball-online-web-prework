@@ -13,11 +13,11 @@ def game_hash
         {:number => ""},
         {:shoe_size => nil},
         {:points => nil},
-          {:rebounds => nil},
-          :assists => nil,
-          :steals => nil,
-          :blocks => nil,
-          :slam_dunks => nil,
+        {:rebounds => nil},
+        {:assists => nil},
+        :steals => nil,
+        :blocks => nil,
+        :slam_dunks => nil,
       }, {}]
     }
   }
