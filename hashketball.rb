@@ -140,8 +140,10 @@ end
 
 
 def num_points_scored(name)
-  game_hash[]
   points = nil
+  game_hash.each do |key, values|
+  
+  end
 end
 
 def team_names
