@@ -342,8 +342,8 @@ def long_name_steals_a_ton?
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
-      if game_hash[keys][:players][i][:steals] > most_points
-        most_points = game_hash[keys][:players][i][:steals]
+      if game_hash[keys][:players][i][:steals] > most_steals
+        most_steals = game_hash[keys][:players][i][:steals]
         name = game_hash[keys][:players][i][:player_name]
       end
       i += 1
