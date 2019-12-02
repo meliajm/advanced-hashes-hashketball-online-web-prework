@@ -186,7 +186,7 @@ end
 
 def player_numbers(team_name)
   result = []
-  home_or_away = hash.keys
+  home_or_away = game_hash.keys
   home_or_away.each_with_index { |v, i|
     
     if game_hash[v][:team_name] == team_name
