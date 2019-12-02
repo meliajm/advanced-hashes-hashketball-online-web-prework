@@ -187,6 +187,7 @@ end
 def player_numbers(team_name)
   result = []
   game_hash.each { |keys, values|
+  binding.pry
     if game_hash[keys][:team_name] == team_name
       result << game_hash[keys][:players][:number]
     end
