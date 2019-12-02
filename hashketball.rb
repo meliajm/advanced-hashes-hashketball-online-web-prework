@@ -4,9 +4,9 @@ def game_hash
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => {
-        "A" => {},
-        "Bismack Biyombo" => {},
-        "DeSagna Diop" => {},
+        "Alan Anderson" => {},
+        "Reggie Evans" => {},
+        "Br" => {},
         "Ben Gordon" => {},
         "Kemba Walker" => {}
         }
