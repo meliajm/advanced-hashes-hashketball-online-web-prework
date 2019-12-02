@@ -195,5 +195,6 @@ def player_numbers(team_name)
       end
     end
   }
+  result
   # binding.pry
 end
