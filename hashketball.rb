@@ -187,9 +187,9 @@ end
 def player_numbers(team_name)
   result = []
   home_or_away = hash.keys
-  game_hash.each { |keys, values|
+  home_or_away.each_with_index { |v, i|
     
-    if game_hash[keys][:team_name] == team_name
+    if game_hash[v][:team_name] == team_name
       game_hash[keys][:players].each_with_index do |v, i| 
         result << game_hash[keys][:players][i][:number]
       end
