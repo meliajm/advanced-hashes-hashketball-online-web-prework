@@ -336,7 +336,7 @@ end
 def long_name_steals_a_ton?
   a = player_with_longest_name  
   # get most steals 
-  # binding.pry
+  
   most_steals = 0 
   name = nil
   game_hash.each { |keys, values|
@@ -350,6 +350,7 @@ def long_name_steals_a_ton?
     end
   }
   name
+  binding.pry
 end 
 
 
