@@ -269,6 +269,7 @@ def winning_team
       i += 1
     end
   }
+  binding.pry
   # compare totals
   
   #return string of name 
