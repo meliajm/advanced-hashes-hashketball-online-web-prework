@@ -241,5 +241,7 @@ end
   
   # find rebound of that player
 
-
+def most_points_scored
+  
+end
 
