@@ -267,7 +267,7 @@ def winning_team
   }
   game_hash[game_hash.keys].each { |keyz, values|
   i = 0
-    while i < game_hash[game_hash.keys][keyz][:players].length do 
+    while i < game_hash[game_hash.keys[keyz]][:players].length do 
       new_hash_total_points[] += game_hash[keyz][:players][i][:points] 
       i += 1
     end
