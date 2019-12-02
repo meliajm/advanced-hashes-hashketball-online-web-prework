@@ -7,8 +7,8 @@ def game_hash
         "Alan Anderson" => {},
         "Reggie Evans" => {},
         "Brook Lopez" => {},
-        "Ben Gordon" => {},
-        "Kemba Walker" => {}
+        "Mason Plumlee" => {},
+        "Jason Terry" => {}
         }
       },
     :away => {
