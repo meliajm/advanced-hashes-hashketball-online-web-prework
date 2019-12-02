@@ -282,13 +282,11 @@ def winning_team
   home_or_away = game_hash.keys
   total_points_home = 0 
   
-  game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
       total_points_home += game_hash[:home][:players][i][:points] 
       i += 1
     end
-  }
   total_points_home
   binding.pry
   # compare totals
