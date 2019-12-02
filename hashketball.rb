@@ -336,8 +336,20 @@ end
 def long_name_steals_a_ton?
   a = player_with_longest_name  
   # get most steals 
-  binding.pry
-
+  # binding.pry
+  most_steals = 0 
+  name = nil
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:steals] > most_points
+        most_points = game_hash[keys][:players][i][:steals]
+        name = game_hash[keys][:players][i][:player_name]
+      end
+      i += 1
+    end
+  }
+  name
 end 
 
 
