@@ -198,4 +198,17 @@ def player_numbers(team_name)
   result
 end
 
-def player_stats
+def player_stats(player_name)
+  result = {}
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:player_name] == name
+        result = game_hash[keys][:players][i][:player_name]
+        result.
+      end
+      i += 1
+    end
+  }
+  result
+end
