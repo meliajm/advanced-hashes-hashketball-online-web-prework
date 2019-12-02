@@ -258,14 +258,34 @@ def most_points_scored
   # binding.pry
 end
 
+# def winning_team
+#   # total up points mini-method?
+#   home_or_away = game_hash.keys
+#   total_points = 0 
+  
+#   game_hash.each { |keys, values|
+#   i = 0
+#     while i < game_hash[keys][:players].length do 
+#       total_points += game_hash[keys][:players][i][:points] 
+#       i += 1
+#     end
+#   }
+#   total_points
+#   binding.pry
+#   # compare totals
+  
+#   #return string of name 
+# end
+
 def winning_team
   # total up points mini-method?
   home_or_away = game_hash.keys
-  total_points = 0 
+  total_points_home = 0 
+  
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
-      total_points += game_hash[keys][:players][i][:points] 
+      total_points_home += game_hash[:home][:players][i][:points] 
       i += 1
     end
   }
