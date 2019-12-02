@@ -243,7 +243,7 @@ end
 
 def most_points_scored
   most_points = 0 
-  
+  name = nil
   game_hash.each { |keys, values|
   i = 0
     while i < game_hash[keys][:players].length do 
