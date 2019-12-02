@@ -9,10 +9,10 @@ def game_hash
         {:shoe_size => 16},
         {:points => 22},
         {:rebounds => 12},
-        {:assists => nil},
-        {:steals => nil},
-        {:blocks => nil},
-        {:slam_dunks => nil},
+        {:assists => 12},
+        {:steals => 3},
+        {:blocks => 1},
+        {:slam_dunks => 1},
       ]
       },
     :away => {
