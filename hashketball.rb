@@ -141,13 +141,13 @@ end
 
 def num_points_scored(name)
   points = nil
-  game_hash.each do |keys, values|
-    keys.each do |k, v|
+  game_hash.each { |keys, values|
+    keys.each { |k, v|
       if game_hash[keys][:players][k] == name
         game_hash[keys][:players][points]
       end
-    end  
-  end
+    }  
+  }
 end
 
 def team_names
