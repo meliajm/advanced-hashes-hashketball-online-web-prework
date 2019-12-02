@@ -168,6 +168,12 @@ def shoe_size(name)
   result
 end
 
+def team_colors
+  names = []
+  game_hash.each { |key, values| names << game_hash[key][:team_name] }
+  names
+end
+
 def team_names
   names = []
   game_hash.each { |key, values| names << game_hash[key][:team_name] }
