@@ -319,9 +319,10 @@ def player_with_longest_name
   name = nil
   game_hash.each { |keys, values|
   i = 0
-  binding.pry
+  
     while i < game_hash[keys][:players].length do 
       if game_hash[keys][:players][i][:points][:player_name].length > longest_name
+        binding.pry
         longest_name = game_hash[keys][:players][i][:points][:player_name].length
         name = game_hash[keys][:players][i][:points][:player_name]
       end
