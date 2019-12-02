@@ -145,7 +145,7 @@ def num_points_scored(name)
     # game_hash[:home or :away]
     keys.each do |k, v|
       if game_hash[keys][:players][k] == name
-        game_hash[keys][:players]
+        game_hash[keys][:players][points]
       end
     end  
   end
