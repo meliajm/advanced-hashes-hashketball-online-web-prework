@@ -311,5 +311,20 @@ def winning_team
 end
 
 def player_with_longest_name
+  # go through each name 
+  # determine if longer than current 
+  #update if longer
+  # return name 
+  longest_name = 0 
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:points][:player_name].length > longest_name
+          
+      end
+      i += 1
+    end
+  }
+  name
   
 end
