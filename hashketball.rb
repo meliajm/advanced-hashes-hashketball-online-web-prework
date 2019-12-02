@@ -301,7 +301,9 @@ def winning_team
   
   # compare totals
   if total_points_home > total_points_away
-    winner = 
+    winner = game_hash[:home][:team_name]
+  else
+    winner = game_hash[:away][:team_name]
   end
   
   #return string of name 
