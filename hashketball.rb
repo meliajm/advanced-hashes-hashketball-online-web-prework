@@ -194,7 +194,8 @@ def player_numbers(team_name)
         result << game_hash[v][:players][ind][:number]
       end
     end
+    binding.pry
   }
   result
-  binding.pry
+  
 end
