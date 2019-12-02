@@ -288,6 +288,15 @@ def winning_team
       i += 1
     end
   total_points_home
+  
+  total_points_home = 0 
+  
+  i = 0
+    while i < game_hash[:home][:players].length do 
+      total_points_away += game_hash[:home][:players][i][:points] 
+      i += 1
+    end
+  total_points_away
   binding.pry
   # compare totals
   
