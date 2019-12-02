@@ -147,4 +147,5 @@ end
 def team_names
   names = []
   game_hash.each { |key| names << game_hash[key][:team_name]}
+  names
 end
