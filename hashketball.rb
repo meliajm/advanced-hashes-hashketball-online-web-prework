@@ -141,8 +141,9 @@ end
 
 def num_points_scored(name)
   points = nil
-  game_hash.each do |key, values|
-    values do 
+  game_hash.each do |keys, values|
+    # game_hash[:home or :away]
+    keys.each do || 
   end
 end
 
