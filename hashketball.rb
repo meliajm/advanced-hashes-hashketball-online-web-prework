@@ -242,6 +242,18 @@ end
   # find rebound of that player
 
 def most_points_scored
+  most_points = 0 
+  
+  game_hash.each { |keys, values|
+  i = 0
+    while i < game_hash[keys][:players].length do 
+      if game_hash[keys][:players][i][:points] > most_points
+        
+        rebounds = game_hash[keys][:players][i][:rebounds]
+      end
+      i += 1
+    end
+  }
   
 end
 
