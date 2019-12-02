@@ -269,6 +269,7 @@ def winning_team
       i += 1
     end
   }
+  total_points
   binding.pry
   # compare totals
   
