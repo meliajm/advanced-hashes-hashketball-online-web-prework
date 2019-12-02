@@ -172,9 +172,10 @@ def team_colors(team_name)
   result = nil
   game_hash.each { |keys, values|
     if game_hash[keys][:team_name] == team_name
-      game_hash[keys][:colors]
+      result = game_hash[keys][:colors]
     end
   }
+  result
 end
 
 def team_names
