@@ -327,6 +327,7 @@ def player_with_longest_name
       i += 1
     end
   }
+  binding.pry
   name
   
 end
