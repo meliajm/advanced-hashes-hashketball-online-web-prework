@@ -16,7 +16,7 @@ def game_hash
         {:rebounds => nil},
         {:assists => nil},
         {:steals => nil},
-        :blocks => nil,
+        {:blocks => nil},
         :slam_dunks => nil,
       }, {}]
     }
